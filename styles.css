@@ -1,25 +1,10 @@
 body {
-  background-image:
-    url(images/Ellipse\ 18.png),
-    url(images/Ellipse\ 19.png),
-    url(images/ellipse\ 30.png),
-    url(images/Ellipse\ 31.png),
-    url(images/Ellipse\ 32.png),
-    url(images/Ellipse\ 33.png);
-  background-position:
-    top left,
-    right 0% top 10%,
-    top 33% left,
-    right 0% bottom 52%,
-    left 0% bottom 38%,
-    right 0% bottom 22%;
-  background-size:
-    auto,
-    auto,
-    60% auto,
-    auto 7%,
-    63% auto,
-    50% auto;
+  background-image: url(images/Ellipse\ 18.png), url(images/Ellipse\ 19.png),
+    url(images/ellipse\ 30.png), url(images/Ellipse\ 31.png),
+    url(images/Ellipse\ 32.png), url(images/Ellipse\ 33.png);
+  background-position: top left, right 0% top 10%, top 33% left,
+    right 0% bottom 52%, left 0% bottom 38%, right 0% bottom 22%;
+  background-size: auto, auto, 60% auto, auto 7%, 63% auto, 50% auto;
   background-repeat: no-repeat;
   background-color: #191765;
   box-sizing: border-box;
@@ -109,6 +94,10 @@ nav,
   color: #edecff;
 }
 
+.name-info img {
+  display: block; /* Makes the image a block element */
+  margin: 0 auto; /* Sets margins to auto, which centers the image horizontally */
+}
 .box-tools {
   display: flex;
   flex-direction: column;

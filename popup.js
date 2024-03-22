@@ -1,61 +1,61 @@
 const projects = [
   {
-    title: 'Doctors',
-    src: 'images/doctors.png',
-    description: [
-      'Doctor Appointment is a full stack application for book an appointment with doctor. This applications is responsive and users can load, create, and delete doctors and appointments. Users need to sign up or sign in to access application. They can sign up or sign in using the sign up and login forms.',
-    ],
-    technologies: ['React', 'Rails', 'Redux', 'CSS'],
-    seeLiveLink: 'https://appointment-app-frontend.netlify.app/',
-    seeSourceLink: 'https://github.com/ridaarif98/doctors_appointment_front_end',
-  },
-  {
-    title: 'Awesome-Books',
-    src: 'images/awesomeBooks.png',
+    title: "Weather-App",
+    src: "images/weather.png",
     description:
-      'Personal library which allow user to add name of the book and at the same time with the name of the author. User is able to Add new book and Delete book. This app allows user to store all changes in Local storage so user can be able to see his/her stored data anytime.',
-    technologies: ['Javascript', 'Html', 'css', 'Webpack'],
-    seeLiveLink: 'https://awesome-book-202.netlify.app/',
-    seeSourceLink: 'https://github.com/levy002/Awesome-books-ES6',
+      "The Weather App is a web application that provides users with real-time weather information based on their location. It utilizes HTML, CSS, and JavaScript for the frontend interface and integrates with a weather API to fetch and display weather data.",
+    technologies: ["HTML", "CSS", "Javascript"],
+    seeLiveLink: "https://weather-app-ten-tan-87.vercel.app/",
+    seeSourceLink: "https://github.com/Mayank2004-25/Weather-App",
   },
   {
-    title: 'TRAnzKT',
-    src: 'images/TRanzakt.png',
+    title: "N-Queens-Visualizer",
+    src: "images/thumbnail.jpeg",
     description: [
-      'TRAnzKT App is a mobile web application that allows the user to manage his/her budget: they have a list of transactions associated with a category, so that the user can see how much money they spend and on a particular category.',
+      "Introducing our N-Queens Visualizer a captivating project crafted with HTML, CSS, and JavaScript! 🧡👑 Explore the classic chess problem in a visual, user-friendly interface. Place queens on the board, and watch the algorithm dynamically solve the N-Queens puzzle, ensuring no queen threatens another. A simple yet engaging way to appreciate the beauty of chess strategy! ♛🌐 #HTML #CSS #JavaScript #Chess #Visualizer 🕹️🖥️",
     ],
-    technologies: ['Rails', 'Tailwind', 'Rspec'],
-    seeLiveLink: 'dry-bastion-60998.herokuapp.com/',
-    seeSourceLink: 'https://github.com/levy002/budget-app',
+    technologies: ["HTML", "CSS", "Javascript"],
+    seeLiveLink: "https://n-queens-visualizer-self.vercel.app/",
+    seeSourceLink: "https://github.com/Mayank2004-25/N-Queens-Visualizer",
   },
   {
-    title: 'ShowTime',
-    src: 'images/showtime.png',
+    title: "ToDo-App",
+    src: "images/todo.png",
     description: [
-      'ShowTime is a web application based on an external TV Maze API. The API provides data about TV Shows. We then built the webapp around it. The webapp has 2 user interfaces (pages): The Homepage and the Comment modal. On the Homepage, each Show can be liked and commented on.',
+      "Introducing a user-friendly Todo App built with React, HTML, CSS, and JavaScript! 🚀 Stay organized effortlessly, add/edit/delete tasks, and enjoy a responsive design for any device. 💻✅ Elevate your task management with this sleek and intuitive app! #React #TodoApp #WebDevelopment.🌐📝",
     ],
-    technologies: ['JavaScript', 'CSS', 'Jest', 'Webpack'],
-    seeLiveLink: 'https://show-time-202.netlify.app/',
-    seeSourceLink: 'https://github.com/levy002/ShowTime',
+    technologies: ["HTML", "CSS", "ReactJs", "JavaScript"],
+    // seeLiveLink: "",
+    seeSourceLink: "https://github.com/Mayank2004-25/ToDo-App",
   },
   {
-    title: 'Multi-post story4',
-    src: 'images/bookstore.png',
+    title: "Food-Recipe-App",
+    src: "images/food.png",
     description: [
-      'Bookstore-CMS is an SPA made for all the book lovers. It enables users to track the book progress, add new book and delete book.',
+      "Introducing our Food Recipe App, a culinary haven meticulously designed with React, HTML, CSS, and JavaScript! 🍽️ Immerse yourself in a gastronomic journey through an expansive collection of recipes, thoughtfully presented in a visually appealing and intuitive interface. Whether you're a seasoned chef or a kitchen enthusiast, this app provides a seamless experience to explore, experiment, and share your culinary creations.",
     ],
-    technologies: ['React.js', 'Redux', 'Tailwind', ''],
-    seeLiveLink: 'https://bookstore-cms-202.netlify.app/',
-    seeSourceLink: 'https://github.com/levy002/BookStore--CMS',
+    technologies: ["HTML", "CSS", "Javascript", "ReactJs"],
+    // seeLiveLink: "",
+    seeSourceLink: "https://github.com/Mayank2004-25/Food-Recipe-App",
+  },
+  {
+    title: "Currency-Converter-App",
+    src: "images/logo.png",
+    description: [
+      "Introducing our Currency Converter App a dynamic blend of HTML, CSS, and JavaScript, fueled by API magic! 💱✨ Seamlessly convert currencies with an intuitive interface that's as stylish as it is functional. Powered by API keys, our app ensures real-time exchange rates for accurate and up-to-date conversions.",
+    ],
+    technologies: ["HTML", "CSS", "Javascript"],
+    seeLiveLink: "https://currency-converter-app-taupe.vercel.app/",
+    seeSourceLink: "https://github.com/Mayank2004-25/Currency-Converter-App",
   },
 ];
 
-const AllButtons = document.getElementsByClassName('see-project');
-const work = document.querySelector('.project');
-const popUp = document.createElement('section');
-popUp.classList.add('modal-container');
+const AllButtons = document.getElementsByClassName("see-project");
+const work = document.querySelector(".project");
+const popUp = document.createElement("section");
+popUp.classList.add("modal-container");
 function popUpDesktop(cardNumber) {
-  popUp.style.display = 'block';
+  popUp.style.display = "block";
   work.appendChild(popUp);
   popUp.innerHTML = `
     <div class="modal-content">
@@ -92,14 +92,14 @@ function popUpDesktop(cardNumber) {
     </div>
   </div>
   </section>`;
-  document.addEventListener('click', (event) => {
-    if (event.target.id === 'close-popUp') {
-      popUp.style.display = 'none';
+  document.addEventListener("click", (event) => {
+    if (event.target.id === "close-popUp") {
+      popUp.style.display = "none";
     }
   });
 }
 function popUpMobile(cardNumber) {
-  popUp.style.display = 'block';
+  popUp.style.display = "block";
   work.appendChild(popUp);
   popUp.innerHTML = `
     <div class="modal-content">
@@ -136,18 +136,18 @@ function popUpMobile(cardNumber) {
     </div>
   </div>
   </section>`;
-  document.addEventListener('click', (event) => {
-    if (event.target.id === 'close-popUp') {
-      popUp.style.display = 'none';
+  document.addEventListener("click", (event) => {
+    if (event.target.id === "close-popUp") {
+      popUp.style.display = "none";
     }
   });
 }
 
 for (let i = 0; i < AllButtons.length; i += 1) {
-  AllButtons[i].addEventListener('click', () => {
+  AllButtons[i].addEventListener("click", () => {
     popUpDesktop(i);
   });
-  AllButtons[i].addEventListener('click', () => {
+  AllButtons[i].addEventListener("click", () => {
     popUpMobile(i);
   });
 }
