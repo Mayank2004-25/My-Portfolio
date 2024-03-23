@@ -3,7 +3,7 @@ const projects = [
     title: "Weather-App",
     src: "images/weather.png",
     description:
-      "The Weather App is a web application that provides users with real-time weather information based on their location. It utilizes HTML, CSS, and JavaScript for the frontend interface and integrates with a weather API to fetch and display weather data.",
+      "The Weather App is a web application that provides users with real-time weather information based on their location.",
     technologies: ["HTML", "CSS", "Javascript"],
     seeLiveLink: "https://weather-app-ten-tan-87.vercel.app/",
     seeSourceLink: "https://github.com/Mayank2004-25/Weather-App",
@@ -12,41 +12,20 @@ const projects = [
     title: "N-Queens-Visualizer",
     src: "images/thumbnail.jpeg",
     description: [
-      "Introducing our N-Queens Visualizer a captivating project crafted with HTML, CSS, and JavaScript! 🧡👑 Explore the classic chess problem in a visual, user-friendly interface. Place queens on the board, and watch the algorithm dynamically solve the N-Queens puzzle, ensuring no queen threatens another. A simple yet engaging way to appreciate the beauty of chess strategy! ♛🌐 #HTML #CSS #JavaScript #Chess #Visualizer 🕹️🖥️",
-    ],
-    technologies: ["HTML", "CSS", "Javascript"],
-    seeLiveLink: "https://n-queens-visualizer-self.vercel.app/",
+      "Introducing our N-Queens Visualizer a captivating project crafted with HTML, CSS, and JavaScript!👑 Explore the classic chess problem in a visual, user-friendly interface".
     seeSourceLink: "https://github.com/Mayank2004-25/N-Queens-Visualizer",
   },
   {
     title: "ToDo-App",
     src: "images/todo.png",
     description: [
-      "Introducing a user-friendly Todo App built with React, HTML, CSS, and JavaScript! 🚀 Stay organized effortlessly, add/edit/delete tasks, and enjoy a responsive design for any device. 💻✅ Elevate your task management with this sleek and intuitive app! #React #TodoApp #WebDevelopment.🌐📝",
-    ],
-    technologies: ["HTML", "CSS", "ReactJs", "JavaScript"],
-    // seeLiveLink: "",
-    seeSourceLink: "https://github.com/Mayank2004-25/ToDo-App",
-  },
+      "Introducing a user-friendly Todo App built with React, HTML, CSS, and JavaScript! 🚀 Stay organized effortlessly, add/edit/delete tasks, and enjoy a responsive design for any device.",
   {
     title: "Food-Recipe-App",
     src: "images/food.png",
     description: [
-      "Introducing our Food Recipe App, a culinary haven meticulously designed with React, HTML, CSS, and JavaScript! 🍽️ Immerse yourself in a gastronomic journey through an expansive collection of recipes, thoughtfully presented in a visually appealing and intuitive interface. Whether you're a seasoned chef or a kitchen enthusiast, this app provides a seamless experience to explore, experiment, and share your culinary creations.",
-    ],
-    technologies: ["HTML", "CSS", "Javascript", "ReactJs"],
-    // seeLiveLink: "",
+      "Introducing our Food Recipe App, a culinary haven meticulously designed with React, HTML, CSS, and JavaScript! 🍽️ Immerse yourself in a gastronomic journey through an expansive collection of recipes.",
     seeSourceLink: "https://github.com/Mayank2004-25/Food-Recipe-App",
-  },
-  {
-    title: "Currency-Converter-App",
-    src: "images/logo.png",
-    description: [
-      "Introducing our Currency Converter App a dynamic blend of HTML, CSS, and JavaScript, fueled by API magic! 💱✨ Seamlessly convert currencies with an intuitive interface that's as stylish as it is functional. Powered by API keys, our app ensures real-time exchange rates for accurate and up-to-date conversions.",
-    ],
-    technologies: ["HTML", "CSS", "Javascript"],
-    seeLiveLink: "https://currency-converter-app-taupe.vercel.app/",
-    seeSourceLink: "https://github.com/Mayank2004-25/Currency-Converter-App",
   },
 ];
 
