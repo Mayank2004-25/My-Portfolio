@@ -83,15 +83,16 @@ nav,
 
 .name-info h1 {
   color: #7d73fc;
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
 }
 
 .name-info h2 {
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
-  line-height: 20px;
+  line-height: 10px;
   color: #edecff;
+  margin-bottom: 20px;
 }
 
 .name-info img {
