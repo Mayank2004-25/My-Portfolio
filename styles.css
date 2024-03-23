@@ -97,8 +97,8 @@ nav,
 
 .name-info img {
   display: block; /* Makes the image a block element */
-  margin: 0 auto; /* Sets margins to auto, which centers the image horizontally */
-  margin-bottom: 0px;
+  margin: 0 auto 10px; /* Sets margins to auto, which centers the image horizontally */
+  
 }
 .box-tools {
   display: flex;
