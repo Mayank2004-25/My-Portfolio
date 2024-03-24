@@ -21,12 +21,16 @@ const projects = [
     src: "images/todo.png",
     description: [
       "Introducing a user-friendly Todo App built with React, HTML, CSS, and JavaScript! 🚀 Stay organized effortlessly, add/edit/delete tasks, and enjoy a responsive design for any device.",
+           seeLiveLink: "",
+          seeSourceLink: "https://github.com/Mayank2004-25/ToDo-App",
+      
   {
     title: "Food-Recipe-App",
     src: "images/food.png",
     description: [
       "Introducing our Food Recipe App, a culinary haven meticulously designed with React, HTML, CSS, and JavaScript! 🍽️ Immerse yourself in a gastronomic journey through an expansive collection of recipes.",
-    seeSourceLink: "https://github.com/Mayank2004-25/Food-Recipe-App",
+        seeLiveLink: "",
+      seeSourceLink: "https://github.com/Mayank2004-25/Food-Recipe-App",
   },
 ];
 
