@@ -2,8 +2,7 @@ const projects = [
   {
     title: "Weather-App",
     src: "images/weather.png",
-    description:
-      "The Weather App is a web application that provides users with real-time weather information based on their location.",
+    description: ["The Weather App is a web application that provides users with real-time weather information based on their location.",],
     technologies: ["HTML", "CSS", "Javascript"],
     seeLiveLink: "https://weather-app-ten-tan-87.vercel.app/",
     seeSourceLink: "https://github.com/Mayank2004-25/Weather-App",
@@ -11,24 +10,21 @@ const projects = [
   {
     title: "N-Queens-Visualizer",
     src: "images/thumbnail.jpeg",
-    description: [
-      "Introducing our N-Queens Visualizer a captivating project crafted with HTML, CSS, and JavaScript!👑 Explore the classic chess problem in a visual, user-friendly interface.",
-       seeLiveLink : "https://n-queens-visualizer-self.vercel.app/",
+    description: ["Introducing our N-Queens Visualizer a captivating project crafted with HTML, CSS, and JavaScript!👑 Explore the classic chess problem in a visual, user-friendly interface.",],
+       seeLiveLink: "https://n-queens-visualizer-self.vercel.app/",
        seeSourceLink: "https://github.com/Mayank2004-25/N-Queens-Visualizer",
   },
   {
     title: "ToDo-App",
     src: "images/todo.png",
-    description: [
-      "Introducing a user-friendly Todo App built with React, HTML, CSS, and JavaScript! 🚀 Stay organized effortlessly, add/edit/delete tasks, and enjoy a responsive design for any device.",
+    description: ["Introducing a user-friendly Todo App built with React, HTML, CSS, and JavaScript! 🚀 Stay organized effortlessly, add/edit/delete tasks, and enjoy a responsive design for any device.",],
            seeLiveLink: "",
           seeSourceLink: "https://github.com/Mayank2004-25/ToDo-App",
       
   {
     title: "Food-Recipe-App",
     src: "images/food.png",
-    description: [
-      "Introducing our Food Recipe App, a culinary haven meticulously designed with React, HTML, CSS, and JavaScript! 🍽️ Immerse yourself in a gastronomic journey through an expansive collection of recipes.",
+    description: ["Introducing our Food Recipe App, a culinary haven meticulously designed with React, HTML, CSS, and JavaScript! 🍽️ Immerse yourself in a gastronomic journey through an expansive collection of recipes.",],
         seeLiveLink: "",
       seeSourceLink: "https://github.com/Mayank2004-25/Food-Recipe-App",
   },
