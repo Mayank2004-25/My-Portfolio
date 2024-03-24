@@ -13,8 +13,8 @@ const projects = [
     src: "images/thumbnail.jpeg",
     description: [
       "Introducing our N-Queens Visualizer a captivating project crafted with HTML, CSS, and JavaScript!👑 Explore the classic chess problem in a visual, user-friendly interface.",
-       seeLiveLink: "https://n-queens-visualizer-self.vercel.app/",
-    seeSourceLink: "https://github.com/Mayank2004-25/N-Queens-Visualizer",
+       seeLiveLink : "https://n-queens-visualizer-self.vercel.app/",
+       seeSourceLink: "https://github.com/Mayank2004-25/N-Queens-Visualizer",
   },
   {
     title: "ToDo-App",
